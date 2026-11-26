@@ -1,0 +1,51 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": null,
+  "installCommand": null,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/blog/:path*",
+      "missing": [{ "type": "host", "value": "(www\\.)?artech-digital\\.com" }],
+      "destination": "https://www.artech-digital.com/blog/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/projects/:path*",
+      "missing": [{ "type": "host", "value": "(www\\.)?artech-digital\\.com" }],
+      "destination": "https://www.artech-digital.com/projects/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/privacy",
+      "missing": [{ "type": "host", "value": "(www\\.)?artech-digital\\.com" }],
+      "destination": "https://www.artech-digital.com/privacy",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "missing": [{ "type": "host", "value": "(www\\.)?artech-digital\\.com" }],
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+    },
+    {
+      "source": "/assets/fonts/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/assets/img/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }]
+    }
+  ]
+}

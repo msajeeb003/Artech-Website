@@ -1,0 +1,982 @@
+{
+ "brands": [
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/66291fd670f1c2edc8df1458_accuhealth 1.avif",
+   "n": "1"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/66291fd6640af99a8fc53da4_bevager-1024x512-20200129 1.avif",
+   "n": "2"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/66291fd64eedea606f598675_luxe-places-logo 1.avif",
+   "n": "3"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/66291fd6069649a16fa5ade8_zultys 1.avif",
+   "n": "4"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/66291fd6ba280cec323438d2_jc_undertaking 1.avif",
+   "n": "5"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/66291fd6b214b433312f2fc0_market-hero 1.avif",
+   "n": "6"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/684809134f2295ebdf950c4d_happydiab.avif",
+   "n": "6"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/6848091319ce1b5fd51d76e0_logo-final-new.avif",
+   "n": "8"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/684809132d6883ed81d7e45a_Screenshot 2025-06-03 at 11.38.22 AM.avif",
+   "n": "9"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/684809139f5990bcba3982e9_1630624617356.avif",
+   "n": "10"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/684809122b597401d75e3f7c_ICE-Only-Green-Header.webp",
+   "n": "11"
+  },
+  {
+   "src": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/6848091246a58d77e6200dc6_Lorenzon-Logo.webp",
+   "n": "12"
+  }
+ ],
+ "services": [
+  {
+   "icon": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/6877b0dd41c48f8ceae88ac9_Group 1261153440.svg",
+   "title": "Product Discovery & Roadmap",
+   "text": "Have an idea but need clarity? We turn your rough concept into a clear scope, user flows, wireframes, architecture, timeline, and budget."
+  },
+  {
+   "icon": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/6877a4cd2575a1d3b0e23f59_Group 1261153439.svg",
+   "title": "MVP Design & Development",
+   "text": "Ready to build? We design and ship your web app, mobile app, SaaS, or AI tool — focused on the features that matter first."
+  },
+  {
+   "icon": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/6877b0ddd123d0607d6be3ec_Group 1261153441.svg",
+   "title": "AI Product Development",
+   "text": "Add AI to your product or workflow: assistants, chatbots, document automation, internal agents, and RAG systems built on modern LLMs."
+  },
+  {
+   "icon": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/6877b0ddd5535077dda8088f_Group 1261153442.svg",
+   "title": "Launch & Growth Support",
+   "text": "We help you find the right channels, test messaging, and win early users through ads, email, and outreach."
+  },
+  {
+   "icon": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/6877b0dd58d8fdb99d753910_Group 1261153443.svg",
+   "title": "Client Portals & Internal Tools",
+   "text": "Productize your operations with portals, dashboards, CRMs, intake systems, and workflows that cut manual work."
+  },
+  {
+   "icon": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/6877b0dd553f8259aaf3c2fe_Group 1261153444.svg",
+   "title": "Technical Partner for Founders",
+   "text": "You bring the vision, we bring the product, design, architecture, and engineering - so you make smart tech decisions without becoming technical."
+  }
+ ],
+ "service_bg": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/6877a3fa379b303b1d2f43fa_Group 1261153420 (1).avif",
+ "projects": [
+  {
+   "href": "/projects/follow-up-agent",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66b3ba4edd377809d8047_Website - GIg 29 (2).jpg",
+   "title": "Touchbase AI - AI Follow-Up Automation SaaS",
+   "text": "A VA-operated, three-flow sales follow-up automation system with AI-personalized multi-touch email/SMS cadences, automatic stop rules, and full pipeline logging — eliminating lead drop-off at every stage.",
+   "cat": "SaaS",
+   "time": "1 min read"
+  },
+  {
+   "href": "/projects/intent2lead---leadership-platform",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d658a19ef1de5bc6d76a51_Website - GIg 27 (2).jpg",
+   "title": "Intent2Lead - AI Leadership SaaS Platform",
+   "text": "An AI-powered leadership platform that turns manager training into measurable action through personalized micro-lessons, automated accountability loops, and real-time coach visibility.",
+   "cat": "SaaS",
+   "time": "1 min read"
+  },
+  {
+   "href": "/projects/ai-listing-agent-and-chatbot---home-show-ai",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6863fd8b5d81ee6c0ae1ae26_Website - GIg 23.jpg",
+   "title": "Home Show AI - AI Listing Agent and Chatbot",
+   "text": "AI-powered listing assistant that auto-generates product listings from images or videos, cutting creation time in half for Home Show marketplace users.",
+   "cat": "SaaS",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/intake-agent--medical-paperwork-automation",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66b6217bba4970dd2587d_Website - GIg 31 (1).jpg",
+   "title": "MediFlow AI - AI Intake Medical Paperwork Automation SaaS",
+   "text": "A HIPAA-ready AI intake assistant that replaces manual clinic paperwork with a 5–8 minute guided chat flow — delivering structured patient summaries to staff before the first appointment.",
+   "cat": "SaaS",
+   "time": "1 min read"
+  },
+  {
+   "href": "/projects/medical-app-ai-chatbot--happy-diab",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66c28db71c909cf2f54d3_Website - GIg 22 (1).jpg",
+   "title": "Happy Diab - Medical AI Chatbot & SaaS Platform",
+   "text": "AI-powered medical chatbot that helps healthcare professionals get instant, reliable treatment recommendations using trusted medical data sources.",
+   "cat": "Medical",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/lead-gen-ai-tracking-app",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66c55aa8fc896a19f70a7_Website - GIg 21 (1).jpg",
+   "title": "LeadRadar AI - AI Lead Gen Tracking System",
+   "text": "AI-powered LinkedIn tracking app that helps B2B sales teams identify and act on real-time engagement signals for smarter prospecting.",
+   "cat": "SaaS",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/ai-threat-assessment-tool---risk-rater",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66c8d17bba4970dd2f73c_Website - GIg 20 (1).jpg",
+   "title": "Risk Rater - AI Threat Assessment SaaS",
+   "text": "The AI Threat Assessment Tool is a web-based platform developed to make professional-grade threat assessments accessible to both experts and the general public.",
+   "cat": "Law",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/fine-tuned-llm-for-qatar-court-case-law",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66cb5b3c4d8b053d247c9_Website - GIg 25 (1).jpg",
+   "title": "Fine-tuned LLM for Qatar Court Case Law",
+   "text": "Fine-tuned Arabic legal AI assistant trained on Qatari laws, delivering accurate, citation-rich answers for professional legal workflows.",
+   "cat": "SaaS",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/ai-document-generation-system--advisor-armor",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66cd42f77f49ac5960b7e_Website - GIg 26 (1).jpg",
+   "title": "Advisor Armor - AI Document Generation System",
+   "text": "AI-driven compliance document generator that automates risk reports and policies for financial firms, slashing turnaround time and manual effort.",
+   "cat": "SaaS",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/ai-procurement-agent",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66d15ed8c606355329c01_Website - GIg 24 (1).jpg",
+   "title": "BHPE - AI Procurement Agent System",
+   "text": "AI-powered procurement agent that automates end-to-end government bidding, boosting daily submissions and scalability with minimal human input.",
+   "cat": "Law",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/sovereign-memory-stack",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d65974ffd4c78843cd8dd0_Website - GIg 28 (2).jpg",
+   "title": "Sovereign Memory Stack- AI companion system",
+   "text": "A fully self-hosted AI companion system with persistent memory, voice interaction, and zero cloud dependencies — built for complete data sovereignty and long-term identity continuity.",
+   "cat": "SaaS",
+   "time": "1 min read"
+  },
+  {
+   "href": "/projects/psychology-today---automation-platform",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66bbde65891d23fc3eaa3_Website - GIg 30 (1).jpg",
+   "title": "Psychology Today - AI Automation Application",
+   "text": "A cloud-hosted Python automation system that keeps 30+ therapist profiles fresh on Psychology Today through AI-rewritten content, human-mimicking behavior, and a no-touch weekly schedule.",
+   "cat": "SaaS",
+   "time": "1 min read"
+  },
+  {
+   "href": "/projects/cerascreen---health-diagnostics-platform",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68655e84b860379362674d57_Website - GIg 19.jpg",
+   "title": "Cerascreen - Health Diagnostics platform",
+   "text": "Cerascreen is a secure digital health platform that delivers at-home diagnostics with seamless test kit integration and HIPAA-compliant data protection.",
+   "cat": "Medical",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/qumata--ai-web-platform-for-health-risk-prediction",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68655dcb2624a9f298d1ea8f_Website - GIg 18.jpg",
+   "title": "Qumata- AI web platform for health risk prediction",
+   "text": "Qumata is an AI-driven platform that predicts health risks from user data using scalable machine learning and large-scale data processing.",
+   "cat": "Medical",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/shiftrx---medical-shift-optimization-platform",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68655cb598d092bb9be7b887_Website - GIg 17.jpg",
+   "title": "ShiftRX - medical shift optimization platform",
+   "text": "ShiftRX is a smart shift management app that helps medical professionals efficiently organize, update, and coordinate work schedules.",
+   "cat": "Medical",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/healthread---social-network-for-health-interests",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68655b3c7d17f9b8355e7c66_Website - GIg 16.jpg",
+   "title": "Healthread - Social network for health interests",
+   "text": "Healthread is a social network built for sharing personal health experiences and connecting people through common health interests.",
+   "cat": "Medical",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/mccarthy-tetrault---client-interaction-chatbot",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66db03e6ca288c6dc0a87_Website - GIg 8.jpg",
+   "title": "McCarthy Tetrault - Client Interaction Chatbot",
+   "text": "AI-powered chatbot for McCarthy Tetrault that streamlines client interactions, schedules appointments, and delivers secure, instant legal responses.",
+   "cat": "Law",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/ai-powered-legal-services-platform",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d66e03cf1086171041e076_Website - GIg 7.jpg",
+   "title": "AI-powered legal services platform",
+   "text": "AI-powered legal services platform using GPT",
+   "cat": "Law",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/ingredientai---smart-ingredients-ai-platform-saas",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d7c4431d99dd23892e22c3_Website - GIg 35.jpg",
+   "title": "IngredientAI - Smart Ingredients AI Platform SaaS",
+   "text": "An internal AI-powered ingredient intelligence platform for the flavor and fragrance industry — unifying 30,000+ ingredients, supplier data, and quotation management into a single chat-driven hub to eliminate lost same-day quote revenue.",
+   "cat": "SaaS",
+   "time": "1 min read"
+  },
+  {
+   "href": "/projects/vr-pathways---ai-emergency-training-saas-platform",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d7bb650fd6980a059b1951_Website - GIg 32.jpg",
+   "title": "VR Pathways - AI Emergency Training SaaS Platform",
+   "text": "An AI-powered 911 dispatcher training simulator that exposes operators to 200+ realistic emergency call scenarios — with diverse accents, emotional states, and difficulty levels — through voice-driven roleplay and real-time performance tracking.",
+   "cat": "SaaS",
+   "time": "5 min read"
+  },
+  {
+   "href": "/projects/cj-analytics-suite---interview-survey-analytics-platform",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d7be704e7b141bd7f7c23a_Website - GIg 33.jpg",
+   "title": "CJ Analytics Suite - Interview & Survey Analytics Platform",
+   "text": "An AI-powered qualitative research platform that transcribes interviews, generates personas and journey maps, and delivers visually rich insight reports — turning raw stakeholder feedback into actionable recommendations.",
+   "cat": "SaaS",
+   "time": "1 min read"
+  },
+  {
+   "href": "/projects/therapypath-ai---neurodiverse-childrens-therapy-saas-platform",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d7bfa59846041c0db7090f_Website - GIg 34.jpg",
+   "title": "TherapyPath AI - Neurodiverse Children's Therapy SaaS Platform",
+   "text": "A GDPR-compliant AI platform that generates personalized daily therapy plans for neurodiverse children — bridging the gap between clinic appointments by uniting parents, teachers, and therapists in one collaborative care loop.",
+   "cat": "SaaS",
+   "time": "1 min read"
+  }
+ ],
+ "posts": [
+  {
+   "href": "/blog/reward-ai-driven-innovations-work",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/695bf3ddf36e805f2d4cb9df_695b5c5d12e0ddc1250ca65a-1767597391296 (1).png",
+   "title": "How to Reward AI-Driven Innovations at Work",
+   "text": "Design real-time, personalized reward systems for AI contributions that prioritize teamwork, learning, and measurable impact over generic bonuses."
+  },
+  {
+   "href": "/blog/ai-security-standards-global-organizations",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/695bf35a2a2d079ddf14872b_695b5c2112e0ddc1250ca640-1767597449594.png",
+   "title": "AI Security Standards for Global Organizations",
+   "text": "Overview of AI security frameworks (NIST, ISO, EU AI Act), implementation steps, and business benefits for global organizations."
+  },
+  {
+   "href": "/blog/edge-ai-vs-cloud-ai-quality-inspection",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/695bf25081668ce3d11b6f43_695b5ba912e0ddc1250ca61b-1767597560873 (1).png",
+   "title": "Edge AI vs. Cloud AI for Quality Inspection",
+   "text": "Compare Edge and Cloud AI for manufacturing quality inspection — latency, cost, scalability, security, and when a hybrid approach is best."
+  },
+  {
+   "href": "/blog/case-study-ai-voice-search-retail-apps",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/695bf1e384d4e76399b5e6da_695b5b6d12e0ddc1250ca60b-1767597396595.png",
+   "title": "Case Study: AI Voice Search in Retail Apps",
+   "text": "AI voice search improved a retailer's shopping: 35% higher search conversions, 24% more search revenue, fewer returns and calls."
+  },
+  {
+   "href": "/blog/high-availability-ai-key-design-principles",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/695bf190cc2d9b2fdf5b0319_695b5b3112e0ddc1250ca601-1767597379665 (1).png",
+   "title": "High Availability AI: Key Design Principles",
+   "text": "Design AI systems for 99.99% uptime using redundancy, fault-tolerant patterns, horizontal scaling, targeted monitoring, and automated recovery."
+  },
+  {
+   "href": "/blog/best-practices-ai-ready-data-infrastructure",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/695bf0df9f041157a3aee51e_695b5af512e0ddc1250ca5f3-1767597456860 (1) (1).png",
+   "title": "Best Practices for AI-Ready Data Infrastructure",
+   "text": "Practical best practices for building AI-ready data infrastructure: governance, scalable pipelines, integration, storage, and security for reliable AI systems."
+  },
+  {
+   "href": "/blog/ai-revenue-growth-lessons-case-studies",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/695bf02d7bd25d9b8765dac4_695b5ab912e0ddc1250ca5f0-1767597579421.png",
+   "title": "AI Revenue Growth: Lessons from Case Studies",
+   "text": "Case studies show AI boosts revenue by improving sales, forecasting, personalization, and efficiency — and how to scale pilots into governed, profitable programs"
+  },
+  {
+   "href": "/blog/ai-integration-complexity-checker",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/695befc01391694af93ca10d_6959b85212e0ddc1250c382a-1767487669484.png",
+   "title": "AI Integration Complexity Checker",
+   "text": "Curious about integrating AI into your system? Use our free tool to check complexity, get a rating, and find tips to simplify the process!"
+  },
+  {
+   "href": "/blog/llm-resource-monitoring-tools-comparison",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6942b568f40a7e01a0c3d12f_6941e75489a9fb16dc707261-1765930289420.png",
+   "title": "LLM Resource Monitoring Tools: Comparison",
+   "text": "Compare six LLM monitoring tools—features, metrics, pricing, and best-use cases—to pick the right mix for performance, cost, and integrations."
+  },
+  {
+   "href": "/blog/gpu-acceleration-reduces-ai-latency",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6942b4b76880e16db28b16d6_6941e71889a9fb16dc707257-1765928699585 (1).png",
+   "title": "How GPU Acceleration Reduces AI Latency",
+   "text": "GPUs cut AI inference latency using parallel cores, Tensor Cores, mixed precision, and optimizations to deliver sub-100ms real-time performance."
+  },
+  {
+   "href": "/blog/ai-transforms-business-decision-making",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6942b0c85d8eacf0ded7be40_6941e6a089a9fb16dc7070d5-1765928751711.png",
+   "title": "How AI Transforms Business Decision-Making",
+   "text": "AI improves forecasts, speeds approvals, cuts costs, and scales with pilot projects, data governance, and ROI-driven metrics for better business decisions."
+  },
+  {
+   "href": "/blog/ultimate-guide-to-debugging-ai-training-failures",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6942b041e96c3389b4088b86_6941e66589a9fb16dc706eb5-1765953484381.png",
+   "title": "Ultimate Guide to Debugging AI Training Failures",
+   "text": "Practical step-by-step guide to diagnose and fix AI training failures — data quality, model design, hyperparameters, gradient analysis, and experiment tracking."
+  },
+  {
+   "href": "/blog/ai-solution-comparison-tool",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6942af115fee23de53e9aa6f_6941e54489a9fb16dc706ca9-1765926407159.png",
+   "title": "AI Solution Comparison Tool for You",
+   "text": "Compare top AI platforms like Google AI and AWS with our free tool. Prioritize cost, integration, and scalability to find the perfect solution!"
+  },
+  {
+   "href": "/blog/ai-use-case-finder-business",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6942ae7f6e76a34f9fd1f03e_693a0c9bdf12e5e3fea7c54a-1765412065175.png",
+   "title": "AI Use Case Finder for Your Business",
+   "text": "Struggling to apply AI in your business? Use our AI Use Case Finder to uncover tailored AI solutions for your industry challenges—try it now!"
+  },
+  {
+   "href": "/blog/ai-roi-calculator-smart-investments",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6942ad3a6a3760b07d395ce1_6931d6b3df12e5e3fe9cd9a7-1764873981026.png",
+   "title": "AI ROI Calculator for Smart Investments",
+   "text": "Curious if AI is worth it for your business? Use our free AI ROI Calculator to estimate returns, savings, and break-even points in minutes!"
+  },
+  {
+   "href": "/blog/generative-ai-social-media-marketing",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6942ac33e617981079e0bb80_6941e66489a9fb16dc706eb3-1765928741764.png",
+   "title": "Generative AI in Social Media Marketing",
+   "text": "Generative AI automates social content creation, personalization, community management, and campaign optimization—plus ethical and integration considerations."
+  },
+  {
+   "href": "/blog/cross-platform-ai-agent-deployment-step-by-step-guide",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b5655cb5f76b0944dfa11_690a66e277138b8e9cf77182-1762291669319.png",
+   "title": "Cross-Platform AI Agent Deployment: Step-by-Step Guide",
+   "text": "This guide outlines the essential steps for deploying cross-platform AI agents, enhancing efficiency, and ensuring compliance in various industries."
+  },
+  {
+   "href": "/blog/ai-change-management-case-studies",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b55eb34069d33317c6908_690a66e277138b8e9cf77181-1762291436876.png",
+   "title": "AI in Change Management: Case Studies",
+   "text": "Explore how AI enhances change management by tackling resistance, improving communication, and streamlining processes through data-driven insights."
+  },
+  {
+   "href": "/blog/ai-implementation-cost-estimator-tool",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b558f848ce9f2311cbc5a_690a66bb77138b8e9cf77180-1762289440048.png",
+   "title": "AI Implementation Cost Estimator Tool",
+   "text": "Curious about AI adoption costs? Use our free AI Implementation Cost Estimator to get a tailored estimate for your business in minutes!"
+  },
+  {
+   "href": "/blog/best-ai-observability-tools",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b550d98e2e7eece022028_690a666a77138b8e9cf7717d-1762291691719.png",
+   "title": "Top 5 AI Observability Tools 2025",
+   "text": "Explore the top AI observability tools of 2025 that enhance monitoring, security, and cost management for cloud-native AI systems."
+  },
+  {
+   "href": "/blog/benchmark-ai-adoption-industry-standards",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b5497b93a504d41b103e2_690a662e77138b8e9cf7717a-1762291554776 (1) (1).png",
+   "title": "How To Benchmark AI Adoption Against Industry Standards",
+   "text": "Benchmarking AI adoption helps organizations identify gaps and improve performance, with key metrics guiding strategic growth in a competitive landscape."
+  },
+  {
+   "href": "/blog/ultimate-guide-scaling-conversational-ai-performance",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b5424c0f5c06d7ef49d4b_690a65f277138b8e9cf77178-1762291264437.png",
+   "title": "Ultimate Guide to Scaling Conversational AI Performance",
+   "text": "Learn how to effectively scale conversational AI with optimal infrastructure, model tuning, and performance monitoring strategies."
+  },
+  {
+   "href": "/blog/ai-integration-cost-calculator-for-budgeting",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b53d956983ae942f4dcc7_690a55c677138b8e9cf77137-1762285094446.png",
+   "title": "AI Integration Cost Calculator for Budgeting",
+   "text": "Estimate the cost of integrating AI into your business with our free calculator. Get a detailed breakdown in minutes—try it now!"
+  },
+  {
+   "href": "/blog/ai-model-comparison-tool-for-smart-choices",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b5391c62bae971337a91a_690a558477138b8e9cf77136-1762285006367.png",
+   "title": "AI Model Comparison Tool for Smart Choices",
+   "text": "Struggling to pick the right AI model? Our free comparison tool evaluates top models like GPT-4 and BERT based on your needs, budget, and tech requirements. Get a tailored side-by-side analysis now!"
+  },
+  {
+   "href": "/blog/chatbot-script-builder-for-seamless-talks",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b52dfdfa6a4d05133a694_690a553a77138b8e9cf77135-1762284948309.png",
+   "title": "Chatbot Script Builder for Seamless Talks",
+   "text": "Build custom chatbot scripts for your business with our free tool! Tailor dialogues for sales or support with ease and download instantly."
+  },
+  {
+   "href": "/blog/rag-systems-for-fraud-detection-in-finance",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b5250c110de0c309797d4_690a551177138b8e9cf77134-1762286822634.png",
+   "title": "RAG Systems for Fraud Detection in Finance",
+   "text": "Explore how RAG systems enhance fraud detection in finance by leveraging real-time data and AI-driven insights for improved accuracy and compliance."
+  },
+  {
+   "href": "/blog/customer-onboarding-roi-ai-metrics-explained",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b51e5fe6e2edab931224c_690a54d677138b8e9cf77132-1762286751647 (1).png",
+   "title": "Customer Onboarding ROI: AI Metrics Explained",
+   "text": "Explore how AI metrics can enhance customer onboarding ROI by improving completion rates, reducing time-to-value, and boosting customer satisfaction."
+  },
+  {
+   "href": "/blog/ai-use-case-generator-for-your-business",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b51525edd5258cbe797a5_690a546a77138b8e9cf77126-1762284731138.png",
+   "title": "AI Use Case Generator for Your Business",
+   "text": "Discover tailored AI solutions for your industry with our AI Use Case Generator. Input your business details and get practical ideas to boost growth!"
+  },
+  {
+   "href": "/blog/how-to-debug-ai-agents-across-platforms",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b50c84a76df5eb30c6cb4_690a545e77138b8e9cf77124-1762286753906.png",
+   "title": "How to Debug AI Agents Across Platforms",
+   "text": "Explore effective strategies for debugging AI agents across platforms, focusing on monitoring, logging, and standardized interfaces to enhance performance."
+  },
+  {
+   "href": "/blog/ai-credit-scoring-in-fintech-success-stories",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b503767a4cb7c56b3035f_690a542177138b8e9cf77122-1762286632205.png",
+   "title": "AI Credit Scoring in Fintech: Success Stories",
+   "text": "Explore how AI is revolutionizing credit scoring by improving access, efficiency, and risk management in the fintech industry."
+  },
+  {
+   "href": "/blog/how-to-audit-llms-for-cultural-bias",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b4f9353bd5dfcb2e3bb9a_690a542177138b8e9cf77121-1762286753867.png",
+   "title": "How to Audit LLMs for Cultural Bias",
+   "text": "Learn how to effectively audit large language models for cultural bias using structured frameworks and continuous monitoring techniques."
+  },
+  {
+   "href": "/blog/complete-guide-llms-rag-agentic-ai",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b4f278ae9e26e532767bf_690a539277138b8e9cf77114-1762284537354.png",
+   "title": "Complete Guide to LLMs, RAG, and Agentic AI",
+   "text": "Learn the basics of LLMs, Retrieval-Augmented Generation (RAG), and Agentic AI. Understand how these concepts power modern AI applications and real-world use cases."
+  },
+  {
+   "href": "/blog/integrate-generative-ai-apis-into-your-app",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b4e89e7ad8d35809eaa5d_690a536377138b8e9cf7710f-1762284479601.png",
+   "title": "How to Integrate Generative AI APIs into Your App",
+   "text": "Learn how to integrate generative AI APIs into your app with this step-by-step guide. Understand the basics and practical tips for seamless implementation."
+  },
+  {
+   "href": "/blog/ai-cross-selling-success-case-studies",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/690b4da97c47dbab368bf7f7_68e06ecbe3dd4bddfa6dff34-1759546996007.png",
+   "title": "AI Cross-Selling Success: Case Studies",
+   "text": "Explore how AI-driven cross-selling enhances customer experiences and boosts revenue through personalized recommendations across various industries."
+  },
+  {
+   "href": "/blog/how-to-scale-ai-agents-across-platforms",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68cb019b65c9fc94736b2b72_68c8974dc8ad31793fcd0e39-1757978493058.png",
+   "title": "How to Scale AI Agents Across Platforms",
+   "text": "Learn how to efficiently scale AI agents across various platforms, enhancing performance and user experience while reducing costs."
+  },
+  {
+   "href": "/blog/peft-vs-qlora-faster-fine-tuning-methods",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68cb00bdf141147e8544db73_68c896d5c8ad31793fcc36d5-1757978024570.png",
+   "title": "PEFT vs. QLoRA: Faster Fine-Tuning Methods",
+   "text": "Explore how PEFT and QLoRA revolutionize fine-tuning of large language models, making it faster and more accessible for diverse applications."
+  },
+  {
+   "href": "/blog/cloud-vs-on-premises-ai-agent-deployment",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68cb00356034542f190e9f07_68c896d5c8ad31793fcc357e-1757978008636.png",
+   "title": "Cloud vs. On-Premises AI Agent Deployment",
+   "text": "Explore the pros and cons of cloud vs. on-premises AI deployment, focusing on costs, scalability, security, and performance to find the right fit for your business."
+  },
+  {
+   "href": "/blog/ai-in-mobile-banking-case-studies",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68cafcbd159215aeda6f30d3_68c8965dc8ad31793fcba21e-1757978938777 (1).png",
+   "title": "AI in Mobile Banking: Case Studies",
+   "text": "Explore how AI is revolutionizing mobile banking with personalized insights, enhanced security, and smarter financial tools."
+  },
+  {
+   "href": "/blog/customer-engagement-metrics-for-chatbot-roi",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68cafc003d30689b59476a8a_68c89699c8ad31793fcbeb87-1757977980829.png",
+   "title": "Customer Engagement Metrics for Chatbot ROI",
+   "text": "Explore essential customer engagement metrics to measure chatbot ROI effectively and enhance customer satisfaction and business performance."
+  },
+  {
+   "href": "/blog/5-ai-personalization-strategies-for-revenue-growth",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68cafb6067ef60d728194502_68c895e5c8ad31793fcad14a-1757978077400 (1).png",
+   "title": "5 AI Personalization Strategies for Revenue Growth",
+   "text": "Explore five AI personalization strategies that enhance customer engagement and drive revenue growth through tailored experiences."
+  },
+  {
+   "href": "/blog/api-gateway-security-for-multi-tenant-ai-systems",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68cafa9b447b7294c44538e3_68c89621c8ad31793fcb4d04-1757978748198.png",
+   "title": "API Gateway Security for Multi-Tenant AI Systems",
+   "text": "Explore how API gateways enhance security in multi-tenant AI systems by ensuring tenant isolation, robust authentication, and efficient resource management."
+  },
+  {
+   "href": "/blog/decentralized-ai-governance-role-of-consensus-algorithms",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68caf6eb1d827b06b219e467_68b8e66c68bb5e38323383eb-1756960406852.png",
+   "title": "Decentralized AI Governance: Role of Consensus Algorithms",
+   "text": "Explore the impact of consensus algorithms on decentralized AI governance, highlighting their strengths, weaknesses, and future potential."
+  },
+  {
+   "href": "/blog/case-study-scaling-edge-ai-in-iot-systems",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/689a0b15642a9d0868737a55_689978598204a37d5f9464ce-1754893047080.png",
+   "title": "Case Study: Scaling Edge AI in IoT Systems",
+   "text": "Explore how a mid-sized industrial company transformed operations by adopting edge AI, enhancing efficiency and reducing costs."
+  },
+  {
+   "href": "/blog/ai-in-last-mile-delivery-7-customer-benefits",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/689a0ac15f81ebdfbb65cd86_6899781e8204a37d5f9463ff-1754893409101.png",
+   "title": "AI in Last-Mile Delivery: 7 Customer Benefits",
+   "text": "Explore how AI enhances last-mile delivery, offering faster, more reliable, and eco-friendly options for a better customer experience."
+  },
+  {
+   "href": "/blog/strategies-to-prevent-model-drift-in-ai-systems",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/689a0a7ade0d1cf6b7c9b455_689977e08204a37d5f9462e0-1754893086744.png",
+   "title": "Strategies To Prevent Model Drift in AI Systems",
+   "text": "Learn effective strategies to prevent model drift in AI systems, ensuring consistent performance and reliability over time."
+  },
+  {
+   "href": "/blog/how-to-add-bias-detection-to-ai-pipelines",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/689a0a0a3bd4d635134523c2_689977a58204a37d5f9461b2-1754892909127.png",
+   "title": "How to Add Bias Detection to AI Pipelines",
+   "text": "Learn how to implement bias detection in AI pipelines to ensure equitable outcomes and maintain trust in automated systems."
+  },
+  {
+   "href": "/blog/best-practices-for-privacy-in-rag-chatbots",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/689a09a17755d2aa971939bd_689977a48204a37d5f9461ad-1754892905804.png",
+   "title": "Best Practices for Privacy in RAG Chatbots",
+   "text": "Explore best practices for ensuring privacy in RAG chatbots, focusing on data handling, encryption, access control, and compliance with regulations."
+  },
+  {
+   "href": "/blog/energy-efficient-gpu-vs-tpu-allocation",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/689a090a09d6dd5f3271ff54_689975c48204a37d5f945aa8-1754893571971.png",
+   "title": "Energy-Efficient GPU vs. TPU Allocation",
+   "text": "Explore the energy efficiency of GPUs vs. TPUs for AI workloads, considering performance, costs, and environmental impacts."
+  },
+  {
+   "href": "/blog/monitoring-latency-in-rag-systems",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6899f49bb161de519126cec9_689945f48204a37d5f9406bc-1754888656058.png",
+   "title": "Monitoring Latency in RAG Systems",
+   "text": "Monitoring latency in RAG systems is crucial to enhance user experience, cut costs, and optimize performance across retrieval, generation, and network processes."
+  },
+  {
+   "href": "/blog/ai-driven-revenue-growth-hospitality-insights",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6899f413c286c05d08dcce49_6893f323fb53ac25c7c83054-1754537571111.png",
+   "title": "AI-Driven Revenue Growth: Hospitality Insights",
+   "text": "Explore how AI is transforming the hospitality industry by enhancing revenue growth, operational efficiency, and guest experiences."
+  },
+  {
+   "href": "/blog/soft-prompting-in-peft-key-insights",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6899f39ac8747b7097f00f72_68900d62fb53ac25c7c1e934-1754283569020.png",
+   "title": "Soft Prompting in PEFT: Key Insights",
+   "text": "Explore how soft prompting in PEFT enhances AI model training efficiency, reduces costs, and adapts to various business applications."
+  },
+  {
+   "href": "/blog/how-to-reduce-ai-energy-costs-with-model-optimization",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6880eea14f782d02168def29_687f29d00c233be3c851f489-1753176444285.png",
+   "title": "How to Reduce AI Energy Costs with Model Optimization",
+   "text": "Learn effective strategies for optimizing AI models to reduce energy costs while maintaining performance and sustainability."
+  },
+  {
+   "href": "/blog/how-rag-chatbots-improve-workflow-automation",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6880ed9ea346a2e6fc1e783a_687f29d00c233be3c851f482-1753176312713.png",
+   "title": "How RAG Chatbots Improve Workflow Automation",
+   "text": "RAG chatbots enhance workflow automation with real-time data retrieval, improving accuracy, efficiency, and user trust across various industries."
+  },
+  {
+   "href": "/blog/ultimate-guide-to-feature-scaling-in-ml",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6880ecdb6712d8a6908959c3_687f29940c233be3c851f3db-1753176246040.png",
+   "title": "Ultimate Guide to Feature Scaling in ML",
+   "text": "Feature scaling is essential for enhancing machine learning model performance by ensuring features are on comparable scales, improving accuracy and training speed."
+  },
+  {
+   "href": "/blog/5-steps-to-build-feedback-loops-for-ai-models",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6880ec2b397bc3ad378a5f57_687f29580c233be3c851f2fb-1753167548729 (1).png",
+   "title": "5 Steps to Build Feedback Loops for AI Models",
+   "text": "Learn how to establish effective feedback loops for AI models to enhance performance, user satisfaction, and compliance with privacy laws."
+  },
+  {
+   "href": "/blog/ultimate-guide-to-benchmarking-rag-systems-mfn0f",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6880eb4b9f5d86e54a69b4df_687f291c0c233be3c851f1d2-1753176753048.png",
+   "title": "Ultimate Guide to Benchmarking RAG Systems",
+   "text": "Explore essential metrics and strategies for effectively benchmarking Retrieval-Augmented Generation systems to enhance performance and accuracy."
+  },
+  {
+   "href": "/blog/how-load-balancing-improves-ai-system-performance",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6880ea956f6204cef3560ff1_687f28e00c233be3c851f13c-1753176033207.png",
+   "title": "How Load Balancing Improves AI System Performance",
+   "text": "Explore how load balancing enhances AI system performance by improving scalability, reducing latency, and ensuring reliability under heavy demand."
+  },
+  {
+   "href": "/blog/building-trust-in-ai-security-systems",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6880ea0bb048c570d1f4cde4_687f28a40c233be3c851f09e-1753176085498.png",
+   "title": "Building Trust in AI Security Systems",
+   "text": "Explore essential strategies for building trust in AI security systems through stakeholder alignment, ethics, transparency, and ongoing commitment."
+  },
+  {
+   "href": "/blog/how-edge-ai-detects-fraud-in-real-time",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6880e94b986092683bf452d6_687f28680c233be3c851f009-1753175959338.png",
+   "title": "How Edge AI Detects Fraud in Real Time",
+   "text": "Explore how Edge AI revolutionizes real-time fraud detection by processing data locally, enhancing security and privacy for financial transactions."
+  },
+  {
+   "href": "/blog/advances-in-self-supervised-nlp-algorithms",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6880e8d8f16dc0d0a42f8997_68672381ea0b46f911c307b0-1751599926806.png",
+   "title": "Advances in Self-Supervised NLP Algorithms",
+   "text": "Explore how self-supervised learning is revolutionizing NLP by minimizing labeled data reliance, enhancing multilingual capabilities, and driving efficiency in businesses."
+  },
+  {
+   "href": "/blog/top-questions-to-ask-before-ai-integration",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/685ab9b6e8587706ba3b62ee_6854f33a5559d477e7603a61-1750402180969.png",
+   "title": "Top Questions to Ask Before AI Integration",
+   "text": "Before integrating AI into your business, ask key questions about goals, data readiness, scalability, ethics, and partnership to ensure success."
+  },
+  {
+   "href": "/blog/edge-ai-monitoring-platforms-comparison-2025",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/685ab8f3826d5238ea0006ed_6854f30b5559d477e76039cc-1750401970434.png",
+   "title": "Edge AI Monitoring Platforms: Comparison 2025",
+   "text": "Explore leading Edge AI monitoring platforms in 2025, comparing their features, strengths, and industry suitability for informed decisions."
+  },
+  {
+   "href": "/blog/how-to-manage-user-adoption-during-ai-integration",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/685ab87ff19020d84d6f11b1_6854f2cb5559d477e760388e-1750401005334.png",
+   "title": "How to Manage User Adoption During AI Integration",
+   "text": "Effective user adoption strategies are crucial for successful AI integration. Learn how to overcome barriers and enhance engagement in your organization."
+  },
+  {
+   "href": "/blog/real-time-route-optimization-with-ai",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68503cd2126c544962acd8fc_68465e2059c542f4ebddcf82-1749471680935.png",
+   "title": "Real-Time Route Optimization with AI",
+   "text": "Explore how AI-driven route optimization is transforming logistics through real-time adjustments, cost savings, and enhanced delivery efficiency."
+  },
+  {
+   "href": "/blog/ai-in-mobile-banking-real-time-recommendations",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68503c4e584fb8b8aeb07c10_68465e2059c542f4ebddcf81-1749463941358.png",
+   "title": "AI in Mobile Banking: Real-Time Recommendations",
+   "text": "Explore how AI is revolutionizing mobile banking with real-time recommendations, enhancing security, fraud detection, and personalized financial insights."
+  },
+  {
+   "href": "/blog/predictive-analytics-training-industry-case-studies",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68503ba50558e5f117b64c5d_68465d6c59c542f4ebddcee7-1749473182546.png",
+   "title": "Predictive Analytics Training: Industry Case Studies",
+   "text": "Explore how predictive analytics training transforms data into actionable insights, enhancing decision-making and driving organizational success."
+  },
+  {
+   "href": "/blog/ai-in-order-picking-case-studies",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68503a94467d744339a27981_68465d6c59c542f4ebddcee1-1749473252191.png",
+   "title": "AI in Order Picking: Case Studies",
+   "text": "Explore how AI is revolutionizing order picking in warehouses, enhancing efficiency, accuracy, and cost savings through robotics and analytics."
+  },
+  {
+   "href": "/blog/edge-ai-compliance-key-regulations-to-know",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6850392dafd7ac8de0c3d1d7_68465d6c59c542f4ebddcedd-1749474668191.png",
+   "title": "Edge AI Compliance: Key Regulations To Know",
+   "text": "Understanding the evolving landscape of edge AI compliance is crucial for businesses navigating complex regulations in various industries."
+  },
+  {
+   "href": "/blog/common-pitfalls-in-rag-fine-tuning-and-how-to-avoid-them",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68503785fadebe994a9116ac_683f9e141bd3e223130133e2-1749023991993.png",
+   "title": "Common Pitfalls in RAG Fine-Tuning and How to Avoid Them",
+   "text": "Explore common pitfalls in fine-tuning Retrieval-Augmented Generation systems and learn effective strategies to enhance model performance."
+  },
+  {
+   "href": "/blog/top-7-fairness-metrics-in-machine-learning",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/682f98061479666b45812aeb_6816b850b040e4635da7534a-1746328501548.png",
+   "title": "Top 7 Fairness Metrics in Machine Learning",
+   "text": "Explore essential fairness metrics in machine learning that help ensure equitable AI systems and mitigate bias across diverse groups."
+  },
+  {
+   "href": "/blog/top-metrics-for-evaluating-peft-methods",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/682f9724e7b8b78101919bf4_681aaf7c7a153cb8e45179ae-1746601769930.png",
+   "title": "Top Metrics for Evaluating PEFT Methods",
+   "text": "Explore key metrics for evaluating Parameter-Efficient Fine-Tuning (PEFT) methods, emphasizing accuracy, efficiency, and performance across various domains."
+  },
+  {
+   "href": "/blog/how-ai-automates-task-scheduling-for-businesses",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/682f963077e1b9a7c519682d_681ff3c05e3fe4823b5e19e5-1746994831576.png",
+   "title": "How AI Automates Task Scheduling for Businesses",
+   "text": "Explore how AI automates task scheduling, saving time and money while enhancing efficiency and team communication for businesses."
+  },
+  {
+   "href": "/blog/developing-custom-ai-voice-shopping-assistants",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/682f95b023fea3f9d0da833a_6823ec55f8b9f5df39f5372b-1747196528915.png",
+   "title": "Developing Custom AI Voice Shopping Assistants",
+   "text": "Explore how custom AI voice shopping assistants enhance user experience, streamline purchases, and integrate secure payment systems."
+  },
+  {
+   "href": "/blog/cross-functional-teams-for-ai-success",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/682f954ad3be6fa43f8df92d_6829639f5642a17d106d67b2-1747568190273.png",
+   "title": "Cross-Functional Teams for AI Success",
+   "text": "Cross-functional teams are key to unlocking AI potential, enhancing collaboration, and driving successful business outcomes across industries."
+  },
+  {
+   "href": "/blog/how-ai-breaks-down-silos-in-enterprises",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/682f94bad23ff2a75ced1030_682be22e4fa53d42207ca759-1747737742877.png",
+   "title": "How AI Breaks Down Silos in Enterprises",
+   "text": "Explore how AI dismantles silos in enterprises, enhancing collaboration, efficiency, and data integration across departments."
+  },
+  {
+   "href": "/blog/cloud-ai-cost-optimization-best-practices",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/682f93fdd144a51c9ed9e151_682be7564fa53d42207cadda-1747734198111.png",
+   "title": "Cloud AI Cost Optimization: Best Practices",
+   "text": "Learn effective strategies for optimizing cloud AI costs and improving resource management to enhance efficiency and save money."
+  },
+  {
+   "href": "/blog/dynamic-workload-distribution-with-predictive-analytics",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/682f933af3736ecc59196473_682be8834fa53d42207caee9-1747732888294.png",
+   "title": "Dynamic Workload Distribution with Predictive Analytics",
+   "text": "Explore how predictive analytics is revolutionizing workload distribution, enhancing efficiency, and reducing employee burnout across industries."
+  },
+  {
+   "href": "/blog/5-ai-cost-optimization-strategies-for-businesses",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/682f911390575495b35ed25e_682be9364fa53d42207caf6d-1747739597090 (1).png",
+   "title": "5 AI Cost Optimization Strategies for Businesses",
+   "text": "Explore five effective strategies to optimize AI costs in businesses, enhancing efficiency and maximizing return on investment."
+  },
+  {
+   "href": "/blog/media-localization-with-ai-industry-trends-2025",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6806ddde0408a51e51923049_media-localization-with-ai-industry-trends-2025.jpg",
+   "title": "Media Localization with AI: Industry Trends 2025",
+   "text": "Explore how AI is transforming media localization by enhancing translation accuracy, efficiency, and cultural relevance while addressing ongoing challenges."
+  },
+  {
+   "href": "/blog/predictive-maintenance-with-edge-ai-key-benefits",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6806dd247f9e3e11b606692c_predictive-maintenance-with-edge-ai-key-benefits.jpg",
+   "title": "Predictive Maintenance with Edge AI: Key Benefits",
+   "text": "Edge AI enhances predictive maintenance by enabling real-time analysis, reducing costs, and preventing equipment failures before they happen."
+  },
+  {
+   "href": "/blog/edge-ai-vs-cloud-ai-resource-constraints-compared",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6806dcaf650a374fe47c0fb2_edge-ai-vs-cloud-ai-resource-constraints-compared.jpg",
+   "title": "Edge AI vs Cloud AI: Resource Constraints Compared",
+   "text": "Explore the differences between Edge AI and Cloud AI, focusing on resource constraints, processing capabilities, and ideal use cases for each."
+  },
+  {
+   "href": "/blog/best-practices-for-gpu-and-tpu-allocation-monitoring",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6806de0e8b6ac319bd00ebfe_best-practices-for-gpu-and-tpu-allocation-monitoring.jpg",
+   "title": "Best Practices for GPU and TPU Allocation Monitoring",
+   "text": "Learn best practices for monitoring GPU and TPU allocation to optimize performance, reduce costs, and enhance resource efficiency in AI operations."
+  },
+  {
+   "href": "/blog/how-to-train-ai-models-for-non-discrimination",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6806dcf0dfe2474216498a76_how-to-train-ai-models-for-non-discrimination.jpg",
+   "title": "How to Train AI Models for Non-Discrimination",
+   "text": "Learn how to train AI models that ensure fairness and prevent discrimination through unbiased data, fair algorithms, and rigorous testing."
+  },
+  {
+   "href": "/blog/prefix-tuning-vs-soft-prompting-key-differences",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6806dc18adc10f50dbc72707_prefix-tuning-vs-soft-prompting-key-differences.jpg",
+   "title": "Prefix Tuning vs Soft Prompting: Key Differences",
+   "text": "Explore the differences between prefix tuning and soft prompting, two efficient methods for fine-tuning large language models with minimal resource usage."
+  },
+  {
+   "href": "/blog/ai-writing-tools-for-saas-blogs-success-stories",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6806dbb5135c21fb6c2cc940_ai-writing-tools-for-saas-blogs-success-stories.jpg",
+   "title": "AI Writing Tools for SaaS Blogs: Success Stories",
+   "text": "Explore how AI writing tools are revolutionizing content creation for SaaS companies, enhancing efficiency, quality, and SEO performance."
+  },
+  {
+   "href": "/blog/ultimate-guide-to-open-source-ai-orchestration",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6806db70650a374fe47b25bd_ultimate-guide-to-open-source-ai-orchestration.jpg",
+   "title": "Ultimate Guide to Open-Source AI Orchestration",
+   "text": "Explore how open-source AI orchestration tools streamline workflows, enhance data management, and ensure security for scalable AI operations."
+  },
+  {
+   "href": "/blog/ai-in-fraud-detection-case-study-insights",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6806db330faa34cf43411cc6_ai-in-fraud-detection-case-study-insights.jpg",
+   "title": "AI in Fraud Detection: Case Study Insights",
+   "text": "Explore how AI enhances fraud detection in finance, boosting accuracy and efficiency while tackling challenges like data privacy and system bias."
+  },
+  {
+   "href": "/blog/ai-powered-compliance-case-studies-in-finance",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/6806da6dbaad1f5ecbd17e96_ai-powered-compliance-case-studies-in-finance.jpg",
+   "title": "AI-Powered Compliance: Case Studies in Finance",
+   "text": "Explore how AI enhances financial compliance, reducing costs and processing times while tackling AML, KYC, and regulatory reporting challenges."
+  },
+  {
+   "href": "/blog/ai-powered-story-apps-case-studies",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67ca91fc03e8a6f415eef83a_case-studies.avif",
+   "title": "AI-Powered Story Apps: Case Studies",
+   "text": "Explore how AI-powered story apps enhance storytelling through personalization, engagement, and efficiency, transforming user experiences in various sectors."
+  },
+  {
+   "href": "/blog/ultimate-guide-to-dataset-bias-in-machine-learning",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67ca91d2422f6a0171b23585_ML.avif",
+   "title": "Ultimate Guide to Dataset Bias in Machine Learning",
+   "text": "Understand the critical issue of dataset bias in AI, its impacts, and effective strategies for detection and correction to foster fairness."
+  },
+  {
+   "href": "/blog/how-predictive-analytics-automates-workflows",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67ca9060826ee295c7ecc0ca_predictive_analytics.avif",
+   "title": "How Predictive Analytics Automates Workflows",
+   "text": "Explore how predictive analytics transforms workflows by automating processes, boosting efficiency, and driving growth across industries."
+  },
+  {
+   "href": "/blog/checklist-for-reducing-ai-bias",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67ca902ce3adb8692b0cc193_checklist.avif",
+   "title": "Checklist for Reducing AI Bias",
+   "text": "Learn essential strategies to effectively reduce AI bias and create fairer, more reliable systems that benefit all users."
+  },
+  {
+   "href": "/blog/how-to-optimize-llm-response-times",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67ca8fc46722861830c89d92_llm-responses.avif",
+   "title": "How To Optimize LLM Response Times",
+   "text": "Learn effective strategies to enhance Large Language Model response times, improving user experience and operational efficiency."
+  },
+  {
+   "href": "/blog/5-steps-to-integrate-ai-agents-with-legacy-systems",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67ca8f790caaf1415fe0548c_5steps.avif",
+   "title": "5 Steps to Integrate AI Agents with Legacy Systems",
+   "text": "Learn how to effectively integrate AI agents into legacy systems with a structured five-step approach that ensures data readiness and system compatibility."
+  },
+  {
+   "href": "/blog/peft-vs-full-fine-tuning-key-limitations-compared",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67ca8f935b3cf2ef99746082_peft.avif",
+   "title": "PEFT vs Full Fine-Tuning: Key Limitations Compared",
+   "text": "Explore the differences between PEFT and Full Fine-Tuning for training large language models, including efficiency, accuracy, and resource demands."
+  },
+  {
+   "href": "/blog/how-to-define-ai-kpis-for-your-business",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67c930558697f7968385eca1_67c139875f2cea0ab3a222a1-1740733227851.avif",
+   "title": "How to Define AI KPIs for Your Business",
+   "text": "Learn how to define effective AI KPIs that align with your business goals and drive measurable results for enhanced performance."
+  },
+  {
+   "href": "/blog/ai-tech-stack-key-components-explained",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67c930558697f7968385eca1_67c139875f2cea0ab3a222a1-1740733227851.avif",
+   "title": "AI Tech Stack: Key Components Explained",
+   "text": "Explore the essential components of AI tech stacks, from data infrastructure to MLOps, and learn how they work together to build efficient AI systems."
+  },
+  {
+   "href": "/blog/ai-vs-manual-processes-roi-comparison",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67a1fced140b56237dddc9c4_6799b6cff6e234da159c2d6b_67996d77361934e9ac904f74-1738126323810.avif",
+   "title": "AI vs Manual Processes: ROI Comparison",
+   "text": "Explore the advantages of AI over manual processes, including cost savings, reduced errors, and enhanced productivity for businesses."
+  },
+  {
+   "href": "/blog/how-to-measure-ai-roi-in-manufacturing",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67a1fcecb010e0ebe99bad00_6799b2ab8f9c60c6be4bbb28_67998832361934e9ac906fdf-1738123857486.avif",
+   "title": "How To Measure AI ROI in Manufacturing",
+   "text": "Learn how to effectively measure AI ROI in manufacturing by setting clear goals, tracking KPIs, and analyzing costs and benefits."
+  },
+  {
+   "href": "/blog/common-ai-integration-questions-expert-answers",
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/67a1fcebfef782c3e533c11d_679862a1f9e64ee008686e3f_679839f1361934e9ac8f43bb-1738038390333.avif",
+   "title": "Common AI Integration Questions: Expert Answers",
+   "text": "Explore essential insights on AI integration challenges, strategies, and the importance of data governance for business growth."
+  }
+ ],
+ "team": [
+  {
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/687e76b32ae1fd4feef93837_Avatar.png",
+   "name": "Artur A",
+   "role": "Founder and Managing Director"
+  },
+  {
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/688119fea57d0148f40f5867_Adobe Express - file (33).webp",
+   "name": "Dmitry K",
+   "role": "Solutions Architect"
+  },
+  {
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/688100733132b7639a20e243_Adobe Express - file (25).webp",
+   "name": "Sabina A",
+   "role": "Head Of Delivery"
+  },
+  {
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68811b05bf7d3d1fe3a7302f_Adobe Express - file (35).webp",
+   "name": "Kristina D",
+   "role": "Business Analyst"
+  },
+  {
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68b8696ced30bb7896fcfc46_Adobe Express - file.webp",
+   "name": "Dmytro Z",
+   "role": "UX/UI"
+  },
+  {
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68811cc00c01bcc0a2c1f016_Adobe Express - file (38).webp",
+   "name": "Tony B",
+   "role": "Project Manager"
+  },
+  {
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/68b86a1e5f2e6e295a85cdae_Adobe Express - file (39).webp",
+   "name": "Dmitry S",
+   "role": "Lead ML/AI Engineer"
+  },
+  {
+   "img": "https://cdn.prod.website-files.com/662900dee231ae49b618de19/69d64f3f82fde6ec37396950_Avatar (8) (3).webp",
+   "name": "Mosh H",
+   "role": "FullStack Gen AI Engineer"
+  }
+ ],
+ "process": [
+  {
+   "icon": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/68791cea5fe1cb0610aa1aa4_Group 1261153446.svg",
+   "title": "Map your vision",
+   "text": "We deep-dive into your goals, data, and workflows, then hand you a technical plan, timeline, and budget you can bank on.",
+   "size": ""
+  },
+  {
+   "icon": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/68791cea125ed1dc16350323_Group 1261153445.svg",
+   "title": "Build your MVP fast",
+   "text": "Rapid prototyping with weekly demos and transparent milestones - so you always see progress and never lose control.",
+   "size": "size-short"
+  },
+  {
+   "icon": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/68791cea9b4d93c2c14f300c_Group 1261153447.svg",
+   "title": "Launch & scale with confidence",
+   "text": "We integrate with your stack and keep improving after launch, so your product keeps earning its keep over time.",
+   "size": "size-l"
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Monica",
+   "role": "Founder - Klimt Creations",
+   "text": "We had an excellent AI bot integrated into our web app, which was delivered promptly and performs superbly. This agency gets a perfect score of 10 out of 10!"
+  },
+  {
+   "name": "Luka",
+   "role": "Founder - Perimeter",
+   "text": "The quality of the work I received was absolutely extraordinary. I genuinely feel like I paid less than what their services are worth. Such incredible talent team. They posed very important questions and customized the final product to suit my preferences perfectly."
+  },
+  {
+   "name": "Damiano",
+   "role": "Chief Growth Officer - BrandButterMe",
+   "text": "Absolutely phenomenal work, I would highly recommend this agency. They have been one of the best I've ever hired. Very high quality process and deliverables."
+  },
+  {
+   "name": "Christian",
+   "role": "Founder - Prime Digital UK",
+   "text": "Really great. My official partner for AI"
+  },
+  {
+   "name": "Paras",
+   "role": "Founder - PNdigital",
+   "text": "Extremely quick and supportive in finding a viable way forward. Highly recommend!"
+  },
+  {
+   "name": "Miro Goshev",
+   "role": "Founder - madmedia.io",
+   "text": "Arthur and his team exemplify professionalism in their field. They possess outstanding technical skills and demonstrate considerable patience in attending to customer needs. I highly recommend them to all."
+  }
+ ],
+ "misc": {
+  "logo": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/662b5a53a36d0c208d2e7388_Group 1261153331.avif",
+  "hero": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/68777367e459c0bf200c1296_image (1).avif",
+  "arrow": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/66290b9276c586eeed237f20_Arrow 11.svg",
+  "chevron": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/662a08a32aaf9d6a6f249d5f_chevron-right.svg",
+  "stars": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/662a18813fe45b0475b5c874_Stars.svg",
+  "about_bg": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/6709dbe9bce03d9b0e51130e_iStock-2030192156 (1).avif"
+ },
+ "counter_icons": [
+  "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/66290f209aae574a58981745_user-tick.svg",
+  "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/66290f1ed6439378dbbc50c3_verified.svg",
+  "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/66290f1e8ee4e730431ad9c5_clock.svg"
+ ],
+ "platforms": [
+  {
+   "href": "https://www.fiverr.com/art_ab",
+   "img": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/662a10bacd0373f3f675345a_Group 1261153334 (1).avif"
+  },
+  {
+   "href": "https://www.upwork.com/freelancers/aisoftwaredeveloper",
+   "img": "https://cdn.prod.website-files.com/662900dde231ae49b618dda8/662a109a18143ce3390f802c_Group 1261153333.avif"
+  }
+ ]
+}

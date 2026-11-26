@@ -1,0 +1,10 @@
+# Screenshots and reports written by the measuring scripts
+_tools/out/
+
+# Vercel CLI link and local dependencies
+.vercel/
+node_modules/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
