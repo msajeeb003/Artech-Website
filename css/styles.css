@@ -410,8 +410,6 @@ button { padding: 0; border: 0; background: none; cursor: pointer; }
 .team { position: relative; padding: var(--space-section) var(--gutter); overflow: hidden; }
 .team__inner { position: relative; z-index: 1; max-width: var(--container); margin: 0 auto; }
 .team__grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-5); }
-/* With an odd number of people the last card sits in the right-hand column, under the card above it */
-.team__grid > .member:last-child:nth-child(odd) { grid-column: 2; }
 .member {
   display: flex;
   justify-content: flex-start;
