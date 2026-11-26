@@ -138,7 +138,7 @@ Pixel differences that are not one of the listed fixes:
 
 ### Content changed on request
 
-- **Team.** "Sabina A, Head Of Delivery" is removed, and **"Mos R., FullStack & Automation Engineer"** is added as the last card, after Mosh H. The team still has eight cards. His photo was prepared to match the others: the background was rebuilt to the same blue-to-purple gradient (the supplied photo had a duller gradient with a dark patch) and it was cropped to the same 865 × 817 shape. The changes are recorded in `TEAM_REMOVED` and `TEAM_ADDED` in `_tools/build.py`.
+- **Team.** A ninth person is added: **"Mos R., FullStack & Automation Engineer"**. The eight original cards keep their order and places. His card sits last, in the right-hand column under Mosh H; on phones, where the cards are in one column, it is simply last. His photo was prepared to match the others: the background was rebuilt to the same blue-to-purple gradient (the supplied photo had a duller gradient with a dark patch) and it was cropped to the same 865 × 817 shape. The addition is recorded in `TEAM_ADDED` in `_tools/build.py`; the right-column placement of an odd last card is one rule in section 9 of `css/styles.css`.
 
 ### Changed for speed, privacy or access
 

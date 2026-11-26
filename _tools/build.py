@@ -106,7 +106,7 @@ counter_icons = [copy(u, f'icons/stat-{n[2]}.svg') for u, n in zip(data['counter
 service_icons = [copy(s['icon'], f'icons/service-{i + 1}.svg') for i, s in enumerate(data['services'])]
 process_icons = [copy(s['icon'], f'icons/process-{i + 1}.svg') for i, s in enumerate(data['process'])]
 # Team changes made after the capture (the live site still shows the old list).
-TEAM_REMOVED = {'Sabina A'}
+TEAM_REMOVED = set()      # names to leave out, e.g. {'Sabina A'}
 # New members: (name of the person they come after, their card). The photo is a ready-made file in
 # assets/img/team/: 865 x 817 with the same blue-to-purple background as the others.
 TEAM_ADDED = [
