@@ -63,6 +63,8 @@ def o(key):
     return f' data-o="{key}"' if DEBUG else ''
 
 def img(src, w, h, cls, alt='', lazy=False, key=None):
+    # lazy is only safe where the stylesheet fixes the box (slider covers, backdrop). Images sized by
+    # their own file would take no room until loaded and make the page grow under the visitor.
     extra = ' loading="lazy" decoding="async"' if lazy else ''
     return f'<img class="{cls}" src="{src}" width="{w}" height="{h}" alt="{escape(alt)}"{extra}{o(key) if key else ""}>'
 
@@ -103,7 +105,22 @@ COUNTERS = [('15', 'Industries transformed', 'industries'), ('50', 'Startups lau
 counter_icons = [copy(u, f'icons/stat-{n[2]}.svg') for u, n in zip(data['counter_icons'], COUNTERS)]
 service_icons = [copy(s['icon'], f'icons/service-{i + 1}.svg') for i, s in enumerate(data['services'])]
 process_icons = [copy(s['icon'], f'icons/process-{i + 1}.svg') for i, s in enumerate(data['process'])]
-team = [(webp(t['img'], f"team/{slug(t['name'])}.webp", q=88), t) for t in data['team']]
+# Team changes made after the capture (the live site still shows the old entry). The new photo is a
+# ready-made file in assets/img/team/: 865 x 817 with the same blue-to-purple background as the others.
+TEAM_CHANGES = {
+    'Sabina A': {'name': 'Mostafizur Rahman', 'role': 'Gen AI Developer and VA', 'photo': 'team/mostafizur-rahman.webp'},
+}
+def team_member(t):
+    change = TEAM_CHANGES.get(t['name'])
+    if not change:
+        return webp(t['img'], f"team/{slug(t['name'])}.webp", q=88), t
+    w, h = Image.open(os.path.join(IMG, change['photo'])).size
+    return ('assets/img/' + change['photo'], w, h), {**t, **change}
+team = [team_member(t) for t in data['team']]
+shown = {os.path.basename(f[0]) for f, _ in team}
+for name in os.listdir(os.path.join(IMG, 'team')):      # drop photos of people who are no longer shown
+    if name not in shown:
+        os.remove(os.path.join(IMG, 'team', name))
 platforms = [(copy(p['img'], f'{n}.avif'), p['href'], alt) for p, n, alt in zip(data['platforms'], ['fiverr-pro', 'upwork-expert-vetted'], ['Fiverr Pro', 'Upwork Expert-Vetted'])]
 projects = [(webp(p['img'], f"projects/{p['href'].rsplit('/', 1)[1]}.webp", max_w=800, q=86), p) for p in data['projects']]
 POSTS_ON_HOME = 12      # the live site lists 100 here (Webflow's default limit); newest first
@@ -163,7 +180,7 @@ def member(f, t, i):
     k = i == 0
     return f'''
           <li class="member"{o("div.team-item-wrap") if k else ""}>
-            <div class="member__avatar">{img(f[0], f[1], f[2], "member__photo", lazy=True, key="img.member-avatar" if k else None)}</div>
+            <div class="member__avatar">{img(f[0], f[1], f[2], "member__photo", key="img.member-avatar" if k else None)}</div>
             <div class="member__info"{o("div.member-info-wrap") if k else ""}>
               <h3 class="member__name"{o("h3.member-name") if k else ""}>{escape(t["name"])}</h3>
               <p class="member__role"{o("div.member-role") if k else ""}>{escape(t["role"])}</p>
@@ -176,7 +193,7 @@ def step(i, s):
     size = {'size-short': ' step__text--short', 'size-l': ' step__text--long'}.get(s['size'], '')
     return f'''
           <li class="dot-card step"{o("div.content-item_process") if k else ""}>
-            {img(f[0], f[1], f[2], "step__icon", lazy=True, key="img.icon-process" if k else None)}
+            {img(f[0], f[1], f[2], "step__icon", key="img.icon-process" if k else None)}
             <h3 class="step__title"{o("div.heading-text_process") if k else ""}>{escape(s["title"])}</h3>
             <p class="step__text{size}"{o("div.description-card-process") if k else ""}>{escape(s["text"])}</p>
           </li>'''
@@ -191,7 +208,7 @@ def review(i, r):
                     <p class="review__name"{o("div.client-name_text") if k else ""}>{escape(r["name"])}</p>
                     <p class="review__role"{o("div.client-position_text") if k else ""}>{escape(r["role"])}</p>
                   </div>
-                  {img(ui["stars"][0], 116, 19, "review__stars", "Rated 5 out of 5", lazy=True, key="img.icon_stars" if k else None)}
+                  {img(ui["stars"][0], 116, 19, "review__stars", "Rated 5 out of 5", key="img.icon_stars" if k else None)}
                 </figcaption>
                 <blockquote class="review__text"{o("div.reviews_text") if k else ""}>{escape(r["text"])}</blockquote>
               </figure>
@@ -357,7 +374,7 @@ html = f'''<!DOCTYPE html>
         <h2 class="about__title"{o("h2.title-section_benefits")}>5-Star Results, Real-World Impact</h2>
         <p class="about__text"{o("div.text-content_benefits")}>With <strong>120+ verified 5-star reviews</strong> across Upwork and Fiverr, we rank in the <strong>Top 1% of Upwork&#x27;s Expert-Vetted talent</strong> and hold <strong>Top Rated Seller</strong> and <strong>Fiverr Pro</strong> status in AI, Data Science, and Software Development.<br><br>Founders and business owners - from early-stage startups to established companies — work with us because we consistently:<br>- Ship production-ready products on time and on budget<br>- Maintain a <strong>96%+ Job Success Score</strong> with a track record of repeat clients<br>- Pair senior engineering with clear, jargon-free communication<br><br>When you partner with us, you&#x27;re not gambling on a freelancer. You&#x27;re tapping into an agency whose reputation is built one successful launch at a time.</p>
         <div class="about__badges"{o("div.wrapper-platform_logos")}>{"".join(f"""
-          <a class="about__badge" href="{href}"{o("a.link_platform.w-inline-block") if n == 0 else ""}>{img(f[0], f[1], f[2], "about__badge-image", alt, lazy=True, key="img.icon_benefits" if n == 0 else None)}</a>""" for n, (f, href, alt) in enumerate(platforms))}
+          <a class="about__badge" href="{href}"{o("a.link_platform.w-inline-block") if n == 0 else ""}>{img(f[0], f[1], f[2], "about__badge-image", alt, key="img.icon_benefits" if n == 0 else None)}</a>""" for n, (f, href, alt) in enumerate(platforms))}
         </div>
       </div>
       <div class="about__backdrop" aria-hidden="true">
@@ -403,7 +420,7 @@ html = f'''<!DOCTYPE html>
     <div class="site-footer__main">
       <div class="site-footer__columns"{o("div.container-main.footer")}>
         <div class="site-footer__about"{o("div.content-column_footer")}>
-          <div class="site-footer__brand"><a class="site-footer__brand-link" href="/" aria-label="Artech Digital, home"{o("a.brand-logo.w-inline-block")}>{img(ui["logo"][0], ui["logo"][1], ui["logo"][2], "site-footer__logo", lazy=True, key="img.footer_logo")}</a></div>
+          <div class="site-footer__brand"><a class="site-footer__brand-link" href="/" aria-label="Artech Digital, home"{o("a.brand-logo.w-inline-block")}>{img(ui["logo"][0], ui["logo"][1], ui["logo"][2], "site-footer__logo", key="img.footer_logo")}</a></div>
           <p class="site-footer__line site-footer__tagline"{o("a.subscribe_link.w-inline-block")}>Artech Digital — Your Technical Partner From Idea to Launch</p>
           <p class="site-footer__line"><a class="site-footer__email" href="mailto:artur@artech-digital.com">artur@artech-digital.com</a></p>
           <address class="site-footer__line">2900 W Anderson Lane<br>Ste C 200 PMB 1063<br>Austin, TX 78757<br>United States</address>
@@ -422,7 +439,7 @@ html = f'''<!DOCTYPE html>
         </div>
       </div>
       <div class="site-footer__top"{o("div.wrapper-arrow_footer")}>
-        <a class="circle-link circle-link--up" href="#AI-Solutions" aria-label="Back to top"{o("a.arrow-item_footer.w-inline-block")}>{img(ui["arrow"][0], ui["arrow"][1], ui["arrow"][2], "circle-link__icon", lazy=True)}</a>
+        <a class="circle-link circle-link--up" href="#AI-Solutions" aria-label="Back to top"{o("a.arrow-item_footer.w-inline-block")}>{img(ui["arrow"][0], ui["arrow"][1], ui["arrow"][2], "circle-link__icon")}</a>
       </div>
     </div>
     <div class="site-footer__bar">

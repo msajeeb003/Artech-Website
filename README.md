@@ -18,7 +18,7 @@ Nothing needs to be installed or built.
 | `index.html` | The page: header, 10 sections, footer |
 | `css/styles.css` | All styles. Design tokens are at the top (section 1) |
 | `js/main.js` | Menu, the three sliders, Calendly loader, subscribe form |
-| `assets/img/`, `assets/fonts/` | 1.5 MB of images and the Roboto font (the live home page loads about 180 MB) |
+| `assets/img/`, `assets/fonts/` | 1.6 MB of images and the Roboto font (the live home page loads about 180 MB) |
 | `_tools/` | Optional. The scripts that generated the repeating blocks and measured the result. Not needed to run the page |
 | `vercel.json`, `.vercelignore` | Settings for deploying to Vercel (see below) |
 
@@ -136,10 +136,14 @@ Pixel differences that are not one of the listed fixes:
 7. **Tablets and small laptops (480–1259px).** On the live site the whole layout shrinks, so text is 8.5px tall at 768px and about 5px at 480px. Now the text stops shrinking at 14px and the layout adapts, as listed under "Screen sizes". This is new design work, not a copy: please look at it on a tablet.
 8. **"Our Latest Posts" shows the 12 newest posts**, not 100. The number is `POSTS_ON_HOME` in `_tools/build.py`. Note: this removes 88 links from the home page to older posts, which may matter for search ranking. The Blog page still lists them.
 
+### Content changed on request
+
+- **Team.** "Sabina A, Head Of Delivery" is replaced by **"Mostafizur Rahman, Gen AI Developer and VA"** in the same position. His photo was prepared to match the others: the background was rebuilt to the same blue-to-purple gradient (the supplied photo had a duller gradient with a dark patch) and it was cropped to the same 865 × 817 shape. The change is recorded in `TEAM_CHANGES` in `_tools/build.py`.
+
 ### Changed for speed, privacy or access
 
 9. **Images re-saved.** Blog and project covers and team photos are WebP. Logos, icons and the hero image are the original files.
-10. **Images below the first screen load only when needed.**
+10. **Slider cover images load only when needed.** Every other image loads with the page, as on the live site. (An earlier version also delayed the team photos, icons and badges. They take no room until loaded, so the page grew while scrolling and menu links such as "Reviews" stopped up to 550px short. Fixed.)
 11. **Roboto is served from this folder**, not from Google Fonts. Rubik is not loaded because no text uses it.
 12. **No third-party scripts.** Webflow, jQuery, Swiper, Waypoints, counterUp and typed.js are replaced by about 200 lines in `js/main.js`.
 13. **Google Analytics (G-P224QRCRFW) is left out.** Add it back before going live.
