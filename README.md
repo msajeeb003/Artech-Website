@@ -106,12 +106,22 @@ Checked by script after the fixes: no sideways scrolling at any tested width; me
 
 Checked by eye only: hover states, and the new layouts at 480, 600, 768, 834, 900, 991, 992, 1024, 1100 and 1259px.
 
-Pixel differences that were there before the fixes and remain:
+**Re-measured against the live site itself** (fresh screenshots of both, taken on 26 Nov 2026 after the fixes, with the moving logo row frozen in both):
 
-1. The client-logo row is always moving, so two screenshots never catch it in the same place.
+| Width | All sections | Hero (`#AI-Solutions`) |
+|---|---|---|
+| 1440 | 99.95% | 100.00% |
+| 390 | 98.49% | 98.63% |
+| 390, replica given the font file Google serves to phones | 99.63% | 100.00% |
+| 768 | not comparable: new tablet layout (fix 7) | |
+
+Pixel differences that are not one of the listed fixes:
+
+1. **Phone text edges.** Google Fonts gives phones a different build of Roboto than desktops. The live site therefore uses another font file on phones, while the replica ships the desktop file to everyone. Letter shapes differ by a fraction of a pixel; position and size are identical. This is the whole 98.6% → 100% gap in the phone hero.
 2. Photos were re-saved as WebP, which changes fine detail slightly.
-3. On the phone layout, a few lines of text sit one pixel higher or lower inside the blurred glass panels (team, process, reviews). Two screenshots of the same page differ in the same way, so this comes from the screenshot tool, not the layout.
-4. On the phone layout, the "WHAT WE BUILD" heading and service titles are drawn with a different text-smoothing mode in the screenshot tool. Position and size are identical. I could not find the cause.
+3. On the phone layout, two screenshots of the replica are not always identical to each other inside the blurred glass panels (team, process, reviews): some text lines land one pixel higher or lower (99.5% match between two shots). Two screenshots of the live site are identical. I have not found the cause.
+4. On the phone layout, the "WHAT WE BUILD" heading and service titles are drawn with a different text-smoothing mode. Position and size are identical. I have not found the cause.
+5. The client-logo row moves, so ordinary screenshots never catch it in the same place.
 
 ## Every place it differs from the live site
 
