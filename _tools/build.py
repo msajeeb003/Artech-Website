@@ -105,18 +105,23 @@ COUNTERS = [('15', 'Industries transformed', 'industries'), ('50', 'Startups lau
 counter_icons = [copy(u, f'icons/stat-{n[2]}.svg') for u, n in zip(data['counter_icons'], COUNTERS)]
 service_icons = [copy(s['icon'], f'icons/service-{i + 1}.svg') for i, s in enumerate(data['services'])]
 process_icons = [copy(s['icon'], f'icons/process-{i + 1}.svg') for i, s in enumerate(data['process'])]
-# Team changes made after the capture (the live site still shows the old entry). The new photo is a
-# ready-made file in assets/img/team/: 865 x 817 with the same blue-to-purple background as the others.
-TEAM_CHANGES = {
-    'Sabina A': {'name': 'Mostafizur Rahman', 'role': 'Gen AI Developer and VA', 'photo': 'team/mostafizur-rahman.webp'},
-}
-def team_member(t):
-    change = TEAM_CHANGES.get(t['name'])
-    if not change:
-        return webp(t['img'], f"team/{slug(t['name'])}.webp", q=88), t
-    w, h = Image.open(os.path.join(IMG, change['photo'])).size
-    return ('assets/img/' + change['photo'], w, h), {**t, **change}
-team = [team_member(t) for t in data['team']]
+# Team changes made after the capture (the live site still shows the old list).
+TEAM_REMOVED = {'Sabina A'}
+# New members: (name of the person they come after, their card). The photo is a ready-made file in
+# assets/img/team/: 865 x 817 with the same blue-to-purple background as the others.
+TEAM_ADDED = [
+    ('Mosh H', {'name': 'Mos R.', 'role': 'FullStack & Automation Engineer', 'photo': 'team/mostafizur-rahman.webp'}),
+]
+team = []
+for t in data['team']:
+    if t['name'] in TEAM_REMOVED:
+        continue
+    team.append((webp(t['img'], f"team/{slug(t['name'])}.webp", q=88), t))
+    for after, member in TEAM_ADDED:
+        if after == t['name']:
+            w, h = Image.open(os.path.join(IMG, member['photo'])).size
+            team.append((('assets/img/' + member['photo'], w, h), member))
+assert len(team) == len(data['team']) - len(TEAM_REMOVED) + len(TEAM_ADDED), 'a team change did not apply'
 shown = {os.path.basename(f[0]) for f, _ in team}
 for name in os.listdir(os.path.join(IMG, 'team')):      # drop photos of people who are no longer shown
     if name not in shown:

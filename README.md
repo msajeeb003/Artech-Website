@@ -138,7 +138,7 @@ Pixel differences that are not one of the listed fixes:
 
 ### Content changed on request
 
-- **Team.** "Sabina A, Head Of Delivery" is replaced by **"Mostafizur Rahman, Gen AI Developer and VA"** in the same position. His photo was prepared to match the others: the background was rebuilt to the same blue-to-purple gradient (the supplied photo had a duller gradient with a dark patch) and it was cropped to the same 865 × 817 shape. The change is recorded in `TEAM_CHANGES` in `_tools/build.py`.
+- **Team.** "Sabina A, Head Of Delivery" is removed, and **"Mos R., FullStack & Automation Engineer"** is added as the last card, after Mosh H. The team still has eight cards. His photo was prepared to match the others: the background was rebuilt to the same blue-to-purple gradient (the supplied photo had a duller gradient with a dark patch) and it was cropped to the same 865 × 817 shape. The changes are recorded in `TEAM_REMOVED` and `TEAM_ADDED` in `_tools/build.py`.
 
 ### Changed for speed, privacy or access
 
