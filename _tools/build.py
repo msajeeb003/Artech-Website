@@ -110,7 +110,7 @@ TEAM_REMOVED = {'Sabina A'}
 # New members. The photo is a ready-made file in assets/img/team/: 865 x 817 with the same
 # blue-to-purple background as the others.
 TEAM_ADDED = [
-    {'name': 'Mos R.', 'role': 'FullStack & Automation Engineer', 'photo': 'team/mostafizur-rahman.webp'},
+    {'name': 'Mos R.', 'role': 'Automation Engineer/VA', 'photo': 'team/mostafizur-rahman.webp'},
 ]
 # Order on the page: left to right, row by row, two per row (on phones: top to bottom).
 #   Artur A    | Dmitry K

@@ -138,7 +138,7 @@ Pixel differences that are not one of the listed fixes:
 
 ### Content changed on request
 
-- **Team.** "Sabina A, Head Of Delivery" is removed and **"Mos R., FullStack & Automation Engineer"** is added, so there are still eight cards. The order was set by the site owner: left column Artur A, Kristina D, Dmytro Z, Dmitry S; right column Dmitry K, Tony B, Mosh H, Mos R. (Kristina D took Sabina's place and the right column moved up one row.) On phones the cards run top to bottom in row order. The new photo was prepared to match the others: the background was rebuilt to the same blue-to-purple gradient (the supplied photo had a duller gradient with a dark patch) and it was cropped to the same 865 × 817 shape. All of this is recorded in `TEAM_REMOVED`, `TEAM_ADDED` and `TEAM_ORDER` in `_tools/build.py`.
+- **Team.** "Sabina A, Head Of Delivery" is removed and **"Mos R., Automation Engineer/VA"** is added, so there are still eight cards. The order was set by the site owner: left column Artur A, Kristina D, Dmytro Z, Dmitry S; right column Dmitry K, Tony B, Mosh H, Mos R. (Kristina D took Sabina's place and the right column moved up one row.) On phones the cards run top to bottom in row order. The new photo was prepared to match the others: the background was rebuilt to the same blue-to-purple gradient (the supplied photo had a duller gradient with a dark patch) and it was cropped to the same 865 × 817 shape. All of this is recorded in `TEAM_REMOVED`, `TEAM_ADDED` and `TEAM_ORDER` in `_tools/build.py`.
 
 ### Changed for speed, privacy or access
 
